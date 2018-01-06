@@ -41,6 +41,11 @@ html, body {
   color:#6391f9;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 h1 {
   font:700 20px/26px 'Lato', sans-serif;
   color:#ffffff;
