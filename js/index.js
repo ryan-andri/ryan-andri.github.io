@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var animTime = 100, clickPolice = false;
+  var animTime = 600, clickPolice = false;
   
   $(document).on('touchstart click', '.acc-btn', function() {
     if(!clickPolice) {
