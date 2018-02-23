@@ -6,8 +6,22 @@
   font-style: normal;
 }
 
+html {
+  height: 100%;
+  user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+}
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,10 +54,12 @@ h1 {
     transform: translate(-50%, -50%); 
 }
 
+
+
 /* Figure Image */
 figure {
   margin-bottom: 1.5em;
-  position: relative;
+  display: block;
 }
 
 /* Icons */
@@ -51,6 +67,7 @@ figure {
   padding: 0;
   margin: 0;
   text-align: center;
+  display: block;
 }
 .social li {
   padding: 0;
@@ -78,6 +95,11 @@ figure {
 @media screen and (max-width: 768px) {
   .social li a {
     padding: 10px 8px;
+    visibility: visible;
+  }
+
+  .main-content {
+     width: 440px;
   }
 }
 
