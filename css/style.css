@@ -24,12 +24,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    background-repeat: no-repeat;
-  }
-}
-
 a {
   color: #4a42ed;
 }
@@ -53,8 +47,6 @@ h1 {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
 }
-
-
 
 /* Figure Image */
 figure {
@@ -93,13 +85,13 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
   .social li a {
     padding: 10px 8px;
     visibility: visible;
-  }
-
-  .main-content {
-     width: 100%;
   }
 }
 
