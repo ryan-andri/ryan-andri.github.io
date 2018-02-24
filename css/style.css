@@ -7,6 +7,7 @@
 }
 
 html {
+  background-color: #0c0c0c;
   height: 100%;
   user-select: none;
   -ms-user-select: none;
@@ -25,15 +26,22 @@ body {
 }
 
 a {
-  color: #4a42ed;
+  color: #adadad;
 }
 
 h1 {
-  color: #fff;
+  color: #f7f7f7;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  font-weight: 400;
   margin: 5 0 30px 0;
   margin-bottom: 30px;
+}
+
+h2 {
+  color: #777777;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 5 0 30px 0;
+  margin-bottom: 30px;
+  font-size: 22px;
 }
 
 .main-content {
@@ -73,7 +81,7 @@ figure {
 }
 .social li a {
   font-size: 22px;
-  color: #fff;
+  color: #f7f7f7;
   padding: 8px 8px;
   display: -moz-inline-stack;
   zoom: 1;
@@ -97,7 +105,7 @@ figure {
 }
 
 .social li a:hover {
-  color: #4a42ed;
+  color: #ff3270;
 }
 
 .social li a:hover, .social li a:active, .social li a:focus {
@@ -107,7 +115,7 @@ figure {
 
 /* Footer */
 #footer {
-  color: #fff;
+  color: #adadad;
   font-size: 14px;
   position: absolute;
   bottom: 0;
@@ -119,6 +127,6 @@ figure {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #0c0c0c;
   text-align: center;
 }
