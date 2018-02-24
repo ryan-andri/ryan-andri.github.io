@@ -55,7 +55,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 40,
+          "speed": 32,
           "size_min": 0.1,
           "sync": false
         }
@@ -64,12 +64,12 @@ particlesJS('particles-js',
         "enable": true,
         "distance": 150,
         "color": "#4a42ed",
-        "opacity": 0.4,
+        "opacity": 0.8,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,
