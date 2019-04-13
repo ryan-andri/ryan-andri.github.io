@@ -7,7 +7,7 @@
 }
 
 html {
-  background-color: #0c0c0c;
+  background-color: #fff;
   height: 100%;
   user-select: none;
   -ms-user-select: none;
@@ -30,7 +30,7 @@ a {
 }
 
 h1 {
-  color: #f7f7f7;
+  color: #000;
   font-family: "Source Sans Pro", Arial, sans-serif;
   margin: 5 0 30px 0;
   margin-bottom: 30px;
@@ -39,8 +39,9 @@ h1 {
 h2 {
   color: #777777;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  margin: 5 0 30px 0;
-  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 22px;
 }
 
@@ -67,7 +68,6 @@ figure {
   padding: 0;
   margin: 0;
   text-align: center;
-  display: block;
 }
 .social li {
   padding: 0;
@@ -75,21 +75,13 @@ figure {
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
-  *display: inline;
   position: relative;
 }
 .social li a {
-  font-size: 22px;
-  color: #f7f7f7;
-  padding: 8px 8px;
-  display: -moz-inline-stack;
-  zoom: 1;
-  *display: inline;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
+  font-size: 25px;
+  color: #24003d;
+  padding: 14px 14px;
+  border-radius: 4px;
   font-weight: bold;
 }
 
@@ -99,7 +91,7 @@ figure {
   }
 
   .social li a {
-    padding: 10px 8px;
+    padding: 14px 10px;
     visibility: visible;
   }
 }
@@ -115,18 +107,19 @@ figure {
 
 /* Footer */
 #footer {
-  color: #adadad;
+  color: #24003d;
   font-size: 14px;
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 /* Particles container */
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #0c0c0c;
+  background-color: #fff;
   text-align: center;
 }
