@@ -71,17 +71,14 @@ figure {
   text-align: center;
 }
 .social li {
-  padding: 0;
-  margin: 0;
-  display: -moz-inline-stack;
   display: inline-block;
 }
 .social li a {
-  font-size: 25px;
+  font-size: 24px;
   color: #6f8cf7;
-  padding-left: 16px;
-  padding-right: 16px;
-  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1px;
   font-weight: bold;
 }
 
