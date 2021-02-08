@@ -1,0 +1,96 @@
+/* Simple animation (sa) */
+/* Ryan Andri 2021 */
+
+.sa {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+@keyframes topToBottom {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 10px, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes topToBottom {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 10px, 0);
+        opacity: 1;
+    }
+}
+
+.topToBottom {
+    animation-name: topToBottom;
+    -webkit-animation-name: topToBottom;
+}
+
+@keyframes bottomToTop {
+    from {
+        transform: translate3d(0, 10px, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bottomToTop {
+    from {
+        transform: translate3d(0, 10px, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.bottomToTop {
+    animation-name: bottomToTop;
+    -webkit-animation-name: bottomToTop;
+}
+
+@keyframes outGone {
+    from {
+        transform: translate3d(10px, 0, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 10px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes outGone {
+    from {
+        transform: translate3d(10px, 0, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 10px);
+        opacity: 1;
+    }
+}
+
+.outGone {
+    animation-name: outGone;
+    -webkit-animation-name: outGone;
+}

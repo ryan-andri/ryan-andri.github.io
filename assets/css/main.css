@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 2rem;
+  min-height: 100%;
+  font-family: Molengo, Helvetica, sans-serif;
+}
+
+.img-profile {
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.main-content {
+  padding: 40px 0px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: azure;
+}
+
+/* Text */
+.main-text {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.second-text {
+  font-size: 22px;
+  color: rgba(197, 197, 197, 0.884);
+}
+
+.main-text,
+.second-text,
+.alter-text {
+  font-weight: lighter;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.alter-text {
+  font-size: 18px;
+  color: rgb(240, 240, 240);
+  width: 300px;
+}
+
+/* Social Icon */
+.social-icon {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.social-icon li {
+  display: inline-block;
+}
+
+.social-icon li a {
+  font-size: 22px;
+  color: #f7f7f7;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+}
+
+.social-icon li a:hover,
+.social-icon li a:active,
+.social-icon li a:focus {
+  color: #506aff;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: azure;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  background-color: rgb(22, 22, 22);
+
+  /* https://www.pexels.com/ */
+  background-image: url('../images/bg.jpg');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+}
