@@ -32,7 +32,7 @@ const ParticlesBackground = () => {
   const options = useMemo(
     () => ({
       autoPlay: true,
-      fpsLimit: 90,
+      fpsLimit: 120,
       interactivity: {
         events: {
           onClick: {
@@ -49,7 +49,7 @@ const ParticlesBackground = () => {
             quantity: 3,
           },
           grab: {
-            distance: 300,
+            distance: 150,
             links: {
               opacity: 0.4,
             },
@@ -62,7 +62,7 @@ const ParticlesBackground = () => {
         },
         links: {
           color: "#a2a2a3",
-          distance: 160,
+          distance: 150,
           enable: true,
           opacity: 0.5,
           width: 1,
@@ -70,14 +70,14 @@ const ParticlesBackground = () => {
         move: {
           enable: true,
           random: false,
-          speed: 1.5,
+          speed: 1,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 100,
+          value: 80,
         },
         opacity: {
           value: 0.3,
@@ -89,7 +89,7 @@ const ParticlesBackground = () => {
           value: { min: 1, max: 5 },
         },
       },
-      detectRetina: true,
+      detectRetina: false,
     }),
     []
   );

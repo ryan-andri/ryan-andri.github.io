@@ -5,7 +5,7 @@ import CustIcoMoon from "./CustIcoMoon";
 function App() {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="relative min-h-screen flex items-center justify-center text-white particles-bg">
+    <div className="relative flex items-center justify-center text-white particles-bg">
       <ParticlesBackground />
       <div class="container mx-auto">
         <div className="text-center">
@@ -54,7 +54,7 @@ function App() {
             </a>
           </li>
         </ul>
-        <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0">
+        <div class="absolute left-1/2 transform -translate-x-1/2 bottom-0 mb-2">
           <p>&copy; Ryan Andri {currentYear}</p>
         </div>
       </div>
